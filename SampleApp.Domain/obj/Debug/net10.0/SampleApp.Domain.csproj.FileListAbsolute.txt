@@ -1,0 +1,11 @@
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\bin\Debug\net10.0\SampleApp.Domain.deps.json
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\bin\Debug\net10.0\SampleApp.Domain.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\bin\Debug\net10.0\SampleApp.Domain.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleApp.Domain.AssemblyInfoInputs.cache
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleApp.Domain.AssemblyInfo.cs
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleApp.Domain.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\refint\SampleApp.Domain.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleApp.Domain.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\ref\SampleApp.Domain.dll

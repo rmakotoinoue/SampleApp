@@ -1,0 +1,17 @@
+Service\Program.cs
+        // Seed de dados mockados
+        /*
+        using (var scope = app.Services.CreateScope())
+        {
+            var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            if (!db.WeatherForecasts.Any())
+            {
+                db.WeatherForecasts.AddRange(
+                    new WeatherForecast { Date = DateOnly.FromDateTime(DateTime.Now), TemperatureC = 20, Summary = "Chuvoso" },
+                    new WeatherForecast { Date = DateOnly.FromDateTime(DateTime.Now.AddDays(1)), TemperatureC = 25, Summary = "Ensolarado" },
+                    new WeatherForecast { Date = DateOnly.FromDateTime(DateTime.Now.AddDays(2)), TemperatureC = 18, Summary = "Nublado" }
+                );
+                db.SaveChanges();
+            }
+        }
+        */

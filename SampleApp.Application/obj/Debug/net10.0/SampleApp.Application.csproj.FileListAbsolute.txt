@@ -1,0 +1,15 @@
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\SampleApp.Application.deps.json
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\SampleApp.Application.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\SampleApp.Application.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\SampleApp.Domain.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\SampleApp.Domain.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.csproj.AssemblyReference.cache
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.AssemblyInfoInputs.cache
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.AssemblyInfo.cs
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleAp.29E928F4.Up2Date
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\refint\SampleApp.Application.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\ref\SampleApp.Application.dll

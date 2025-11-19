@@ -1,0 +1,40 @@
+[
+  {
+    "ContainingType": "SampleApp.ApiService.Endpoints.WeatherForecastEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapForecastEndpoints\u003Eb__0_0",
+    "RelativePath": "apiservice/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SampleApp.ApiService.Endpoints.WeatherForecastEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapForecastEndpoints\u003Eb__0_1",
+    "RelativePath": "apiservice/weatherforecast",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
