@@ -1,8 +1,10 @@
+using Mediator.Abstractions;
+using Mediator.Extensions;
 using Microsoft.EntityFrameworkCore;
 using SampleApp.ApiService.Contexts;
 using SampleApp.ApiService.Endpoints;
 using SampleApp.Application.Interfaces;
-using SampleApp.Domain.Entities;
+using SampleApp.Application.WeatherForecast.UserCases.Create;
 using SampleApp.Infrastructure.Repositories;
 
 public partial class Program
@@ -27,7 +29,9 @@ public partial class Program
         //Add controllers if needed in future
         builder.Services.AddControllers();
 
-        builder.Services.AddScoped<IWeatherForecast, WeatherForecastRepository>();
+        builder.Services.AddTransient<IWeatherForecast, WeatherForecastRepository>();
+        builder.Services.AddScoped<IHandler<Request, int>, Handler>();
+        builder.Services.AddMediator(typeof(Program).Assembly);
 
         var app = builder.Build();
 

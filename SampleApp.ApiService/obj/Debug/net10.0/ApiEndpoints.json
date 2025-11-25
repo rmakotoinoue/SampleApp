@@ -2,7 +2,7 @@
   {
     "ContainingType": "SampleApp.ApiService.Endpoints.WeatherForecastEndpoints\u002B\u003C\u003Ec",
     "Method": "\u003CMapForecastEndpoints\u003Eb__0_0",
-    "RelativePath": "apiservice/",
+    "RelativePath": "",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -23,8 +23,32 @@
   },
   {
     "ContainingType": "SampleApp.ApiService.Endpoints.WeatherForecastEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapForecastEndpoints\u003Eb__0_2",
+    "RelativePath": "",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SampleApp.Application.WeatherForecast.UserCases.Create.Request",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SampleApp.ApiService.Endpoints.WeatherForecastEndpoints\u002B\u003C\u003Ec",
     "Method": "\u003CMapForecastEndpoints\u003Eb__0_1",
-    "RelativePath": "apiservice/weatherforecast",
+    "RelativePath": "weatherforecast",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,

@@ -1,6 +1,7 @@
-﻿using SampleApp.Application.Dtos;
+﻿using Mediator.Abstractions;
+using SampleApp.Application.Dtos;
 using SampleApp.Application.Interfaces;
-
+using CreateWeatherForecastCommand = SampleApp.Application.WeatherForecast.UserCases.Create.Request;
 namespace SampleApp.ApiService.Endpoints
 {
     public static class WeatherForecastEndpoints
@@ -33,6 +34,11 @@ namespace SampleApp.ApiService.Endpoints
                     Console.WriteLine($"Erro de operação inválida: {ex.Message}");
                     return Results.Problem("Ocorreu um erro ao processar a solicitação.", statusCode: 500);
                 }
+            });
+            app.MapPost("/", async (IMediator mediator, CreateWeatherForecastCommand command) =>
+            {
+                var result = await mediator.SendAsync(command);
+                return result;
             });
             return app;
         }

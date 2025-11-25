@@ -1526,10 +1526,35 @@
           }
         }
       },
+      "Mediator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Mediator.Abstractions": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mediator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mediator.dll": {}
+        }
+      },
+      "Mediator.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Mediator.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mediator.Abstractions.dll": {}
+        }
+      },
       "SampleApp.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "Mediator": "1.0.0",
           "SampleApp.Domain": "1.0.0"
         },
         "compile": {
@@ -3856,6 +3881,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Mediator/1.0.0": {
+      "type": "project",
+      "path": "../../Mediator/Mediator/Mediator.csproj",
+      "msbuildProject": "../../Mediator/Mediator/Mediator.csproj"
+    },
+    "Mediator.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../../Mediator/Mediator.Abstractions/Mediator.Abstractions.csproj",
+      "msbuildProject": "../../Mediator/Mediator.Abstractions/Mediator.Abstractions.csproj"
     },
     "SampleApp.Application/1.0.0": {
       "type": "project",

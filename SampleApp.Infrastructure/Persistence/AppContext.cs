@@ -6,7 +6,8 @@ namespace SampleApp.ApiService.Contexts
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public AppDbContext() : base() { }
 
-        public DbSet<WeatherForecast> WeatherForecasts => Set<WeatherForecast>();
+        public virtual DbSet<WeatherForecast> WeatherForecasts { get; set; }
     }
 }

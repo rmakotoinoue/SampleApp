@@ -140,3 +140,8 @@ C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\bin\Debug\net10.0\Bui
 C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\bin\Debug\net10.0\BuildHost-netcore\zh-Hans\System.CommandLine.resources.dll
 C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\bin\Debug\net10.0\BuildHost-netcore\zh-Hant\System.CommandLine.resources.dll
 C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\obj\Debug\net10.0\SampleApp.ApiService.sourcelink.json
+C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\bin\Debug\net10.0\Mediator.Abstractions.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\bin\Debug\net10.0\Mediator.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\bin\Debug\net10.0\Mediator.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.ApiService\bin\Debug\net10.0\Mediator.Abstractions.pdb

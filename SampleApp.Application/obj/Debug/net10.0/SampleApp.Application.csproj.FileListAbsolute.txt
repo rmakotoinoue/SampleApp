@@ -13,3 +13,8 @@ C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\Sa
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\refint\SampleApp.Application.dll
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.pdb
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\ref\SampleApp.Application.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\Mediator.Abstractions.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\Mediator.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\Mediator.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\bin\Debug\net10.0\Mediator.Abstractions.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Application\obj\Debug\net10.0\SampleApp.Application.sourcelink.json

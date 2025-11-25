@@ -946,8 +946,29 @@
           }
         }
       },
+      "Mediator/1.0.0": {
+        "dependencies": {
+          "Mediator.Abstractions": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.0"
+        },
+        "runtime": {
+          "Mediator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mediator.Abstractions/1.0.0": {
+        "runtime": {
+          "Mediator.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "SampleApp.Application/1.0.0": {
         "dependencies": {
+          "Mediator": "1.0.0",
           "SampleApp.Domain": "1.0.0"
         },
         "runtime": {
@@ -1329,6 +1350,16 @@
       "sha512": "sha512-U9msthvnH2Fsw7xwAvIhNHOdnIjOQTwOc8Vd0oGOsiRcGMGoBFlUD6qtYawRUoQdKH9ysxesZ9juFElt1Jw/7A==",
       "path": "system.windows.extensions/9.0.0",
       "hashPath": "system.windows.extensions.9.0.0.nupkg.sha512"
+    },
+    "Mediator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mediator.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SampleApp.Application/1.0.0": {
       "type": "project",

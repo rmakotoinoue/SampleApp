@@ -110,3 +110,4 @@ C:\Users\rmako\source\repos\SampleApp\SampleApp.Web\obj\Debug\net10.0\SampleApp.
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Web\obj\Debug\net10.0\ref\SampleApp.Web.dll
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Web\bin\Debug\net10.0\SampleApp.Domain.dll
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Web\bin\Debug\net10.0\SampleApp.Domain.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Web\obj\Debug\net10.0\SampleApp.Web.sourcelink.json

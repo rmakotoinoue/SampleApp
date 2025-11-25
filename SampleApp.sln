@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.3.11206.111 d18.3
+VisualStudioVersion = 18.3.11206.111
 MinimumVisualStudioVersion = 17.8.0.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.AppHost", "SampleApp.AppHost\SampleApp.AppHost.csproj", "{65310CD5-294C-457E-8FA0-4A69A7364A9C}"
 EndProject
@@ -16,6 +16,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Domain", "SampleApp.Domain\SampleApp.Domain.csproj", "{FC0CF70A-51D6-4761-BA6B-07D0D8856FE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Infrastructure", "SampleApp.Infrastructure\SampleApp.Infrastructure.csproj", "{D3C94542-4C77-4558-A4DC-555C3995F31D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{1443823F-D0E1-454E-8BDA-98697638A6E5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		SampleApp.ApiService\README.md = SampleApp.ApiService\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Test", "Test\SampleApp.Test.csproj", "{C9FAC88E-3DB9-4CC5-8107-87B3EE5C637C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,10 @@ Global
 		{D3C94542-4C77-4558-A4DC-555C3995F31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3C94542-4C77-4558-A4DC-555C3995F31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3C94542-4C77-4558-A4DC-555C3995F31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FAC88E-3DB9-4CC5-8107-87B3EE5C637C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FAC88E-3DB9-4CC5-8107-87B3EE5C637C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FAC88E-3DB9-4CC5-8107-87B3EE5C637C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FAC88E-3DB9-4CC5-8107-87B3EE5C637C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

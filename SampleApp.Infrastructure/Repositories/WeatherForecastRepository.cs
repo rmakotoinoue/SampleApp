@@ -13,7 +13,7 @@ namespace SampleApp.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<WeatherForecast> CreateAsync(WeatherForecast weatherForecast)
+        public async Task<WeatherForecast> CreateAsync(WeatherForecast weatherForecast, CancellationToken cancellationToken)
         {
             _context.WeatherForecasts.Add(weatherForecast);
             await _context.SaveChangesAsync();
@@ -27,6 +27,11 @@ namespace SampleApp.Infrastructure.Repositories
         public async Task<WeatherForecast[]> GetAllAsync()
         {
             return await _context.WeatherForecasts.ToArrayAsync();
+        }
+
+        public WeatherForecast[] GetAll()
+        {
+            return _context.WeatherForecasts.ToArray();
         }
     }
 }

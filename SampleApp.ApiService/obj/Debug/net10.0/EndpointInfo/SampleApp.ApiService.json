@@ -6,14 +6,14 @@
   },
   "servers": [
     {
-      "url": "https://localhost:55091"
+      "url": "https://localhost:59809"
     },
     {
-      "url": "http://localhost:55093"
+      "url": "http://localhost:59810"
     }
   ],
   "paths": {
-    "/apiservice": {
+    "/": {
       "get": {
         "tags": [
           "SampleApp.ApiService"
@@ -34,9 +34,41 @@
             "description": "OK"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "SampleApp.ApiService"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "pattern": "^-?(?:0|[1-9]\\d*)$",
+                  "type": [
+                    "integer",
+                    "string"
+                  ],
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
       }
     },
-    "/apiservice/weatherforecast": {
+    "/weatherforecast": {
       "get": {
         "tags": [
           "SampleApp.ApiService"
@@ -44,6 +76,34 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Request": {
+        "type": "object",
+        "properties": {
+          "temperatureC": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "temperatureF": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
           }
         }
       }

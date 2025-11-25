@@ -63,3 +63,8 @@ C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\bin\Debug\net10.0
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\bin\Debug\net10.0\BuildHost-netcore\zh-Hant\System.CommandLine.resources.dll
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\bin\Debug\net10.0\SampleApp.Infrastructure.runtimeconfig.json
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\obj\Debug\net10.0\SampleApp.Infrastructure.genruntimeconfig.cache
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\bin\Debug\net10.0\Mediator.Abstractions.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\bin\Debug\net10.0\Mediator.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\bin\Debug\net10.0\Mediator.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\bin\Debug\net10.0\Mediator.Abstractions.pdb
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Infrastructure\obj\Debug\net10.0\SampleApp.Infrastructure.sourcelink.json

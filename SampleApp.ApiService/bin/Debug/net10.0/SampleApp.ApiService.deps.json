@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "SampleApp.ApiService/1.0.0": {
         "dependencies": {
+          "Mediator": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "10.0.0",
           "SampleApp.Infrastructure": "1.0.0",
           "SampleApp.ServiceDefaults": "1.0.0"
@@ -483,8 +484,28 @@
           }
         }
       },
+      "Mediator/1.0.0": {
+        "dependencies": {
+          "Mediator.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "Mediator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mediator.Abstractions/1.0.0": {
+        "runtime": {
+          "Mediator.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "SampleApp.Application/1.0.0": {
         "dependencies": {
+          "Mediator": "1.0.0",
           "SampleApp.Domain": "1.0.0"
         },
         "runtime": {
@@ -784,6 +805,16 @@
       "sha512": "sha512-Y/0ZkR+r0Cg3DQFuCl1RBnv/tmxpIZRU3HUvelPw6MVaKHwYYR8YNvgs0vuNuXCMvlyJ+Fh88U1D4tah1tt6qw==",
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.11",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512"
+    },
+    "Mediator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mediator.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SampleApp.Application/1.0.0": {
       "type": "project",

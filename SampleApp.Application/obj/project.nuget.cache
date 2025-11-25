@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+Ngi9sH3+1g=",
+  "dgSpecHash": "pZiabFeQHxM=",
   "success": true,
   "projectFilePath": "C:\\Users\\rmako\\source\\repos\\SampleApp\\SampleApp.Application\\SampleApp.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rmako\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.0\\microsoft.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+    "C:\\Users\\rmako\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

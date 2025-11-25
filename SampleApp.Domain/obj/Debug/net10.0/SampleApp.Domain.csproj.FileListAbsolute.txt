@@ -9,3 +9,4 @@ C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleA
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\refint\SampleApp.Domain.dll
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleApp.Domain.pdb
 C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\ref\SampleApp.Domain.dll
+C:\Users\rmako\source\repos\SampleApp\SampleApp.Domain\obj\Debug\net10.0\SampleApp.Domain.sourcelink.json
